@@ -1,0 +1,19 @@
+h1{
+    color: purple;
+}
+
+section > h2{
+    color: blue;
+}
+
+article h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section > article > h2{
+    color: orange;
+    font-size: 12px;
+}
+/* Note the use of the cascade here */

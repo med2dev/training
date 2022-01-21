@@ -1,0 +1,36 @@
+h1{
+    color: blue;
+    text-decoration: underline;
+    background: gold;
+}
+/* This is a comment */
+
+h2{
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+    border: 5px solid orange;
+    /* With css3 we got the ability to do all these values in one line */
+}
+
+section{
+    width: 50%;
+    height: 200px;
+    background: gray;
+    border: black;
+}
+
+p{
+    color: white;
+}
+
+footer{
+    background: black;
+    border: lightgreen;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
