@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>BBC.com homework</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2Fbbc_logo.jpeg?1642719833821"
+        alt="BBC Logo"
+      />
+      <a href="#">Sign in</a>
+      <!--probably an anchor, not a form-->
+      <nav>
+        <ul>
+          <li><a class="story category" href="#">Home</a></li>
+          <li><a class="story category" href="#">News</a></li>
+          <li><a class="story category" href="#">Sport</a></li>
+          <li><a class="story category" href="#">Reel</a></li>
+          <li><a class="story category" href="#">Worklife</a></li>
+          <li><a class="story category" href="#">Travel</a></li>
+          <li><a class="story category" href="#">Future</a></li>
+          <li><a class="story category" href="#">Culture</a></li>
+          <li>
+            <form>
+              <label>More</label>
+              <select>
+                <option value="zebra">Zebras</option>
+                <option value="donkey">Donkeys</option>
+                <option value="horse">Horses</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </nav>
+      <form>
+        <label for="search">Search</label>
+        <input id="search" type="text" />
+      </form>
+    </header>
+
+    <h1>Welcome to BBC.com</h1>
+    <span>Thursday, 13 August</span>
+    <!--obviously this should be dynamic-->
+
+    <section class="front page">
+      <h2>
+        <a href="#">Israel and UAE strike historic peace deal</a>
+        <!--Surely this links to the full article-->
+      </h2>
+      <p>
+        Israel and the UAE agree to normalise relations, marking the third
+        Israel-Arab peace deal.
+      </p>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2FIsrael_UAE_art.jpeg?1642719923324"
+        alt="Benjamin Netanyahu and Khalifa bin Zayed Al-Nahyan"
+      />
+      <a class="story category" href="#">Middle East</a>
+    </section>
+
+    <section>
+      <h3>
+        <a href="#">Americans, go home: Tension at Canada-US border</a>
+      </h3>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2Fflags.jpeg?1642719913904"
+        alt="US and Canadian flags at the border"
+      />
+      <a class="story category" href="#">Canada</a>
+    </section>
+
+    <section>
+      <h3>
+        <a href="#">How will the world vaccinate seven billion people</a>
+      </h3>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2FCOVID-19_vaccine.jpeg?1642719913748"
+        alt="Health Care Worker holding a vial
+        of COVID-19 vaccine in gloved hand"
+      />
+      <a class="story category" href="#">Health</a>
+    </section>
+
+    <section>
+      <h3>
+        <a href="#">The online 'productivity gyms'</a>
+      </h3>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2Fhighly_caffeinated_worker.jpeg?1642719921119"
+        alt="human or humanoid stares intensely at laptop"
+      />
+      <a class="story category" href="#">Worklife</a>
+    </section>
+
+    <section>
+      <h3>
+        <a href="#">The folk singer murdered for his music</a>
+      </h3>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2Fmusician.jpeg?1642719923686"
+        alt="Victor Jara sitting backward in
+        a chair, across from his guitar"
+      />
+      <a class="story category" href="#">Culture</a>
+    </section>
+
+    <h2>
+      <a class="story category" href="#">News</a>
+    </h2>
+    <!--above must have been, e.g., front page-->
+
+    <section>
+      <h3>
+        <a href="#">Biden and Harris say Trump has left US 'in tatters'</a>
+      </h3>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2Fbiden_harris.jpeg?1642719838874"
+        alt="smiling Harris and Biden in profile"
+      />
+      <p>
+        Joe Biden and running mate Kamala Harris call President Donald Trump a
+        "whining" incompetent leader.
+      </p>
+      <a class="story category" href="#">US Election 2020</a>
+    </section>
+
+    <section>
+      <h3>
+        <a href="#">Women form 'solidarity chains' in Belarus protests'</a>
+      </h3>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2Fprotest_art.jpeg?1642719924072"
+        alt="women marching, holding up
+        two fingers in a peace sign"
+      />
+      <p>
+        Women take to the streets of Minsk dressed in white as they demand an
+        end to police brutality.
+      </p>
+      <a class="story category" href="#">Europe</a>
+    </section>
+
+    <section>
+      <h3>
+        <a href="#">Trump says low-pressure shower heads won't wash</a>
+      </h3>
+      <img
+        src="https://cdn.glitch.global/f9f6f06f-fa96-4ef3-8389-cf8cf7a6f242/thumbnails%2Ftrump_hair.jpeg?1642719922165"
+        alt="Close up of Donald Trump with hair blowing in many directions"
+      />
+      <p>
+        The US calls for rules to be eased after Donald Trump complained of
+        issues washing his hair.
+      </p>
+      <a class="story category" href="#">US \& Canada</a>
+    </section>
+
+  </body>
+</html>
