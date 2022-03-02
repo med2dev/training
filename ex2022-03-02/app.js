@@ -32,5 +32,4 @@ testArr.reduce(Math.pow, 7) // 7
 // no callback is invoked
 
 // with an array of length 0 and no initial value, it throws an error
-testArr.reduce(Math.pow)
-// TypeError: Reduce of empty array with no initial value
+testArr.reduce(Math.pow)  // TypeError: Reduce of empty array with no initial value
