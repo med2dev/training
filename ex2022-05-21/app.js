@@ -10,3 +10,11 @@ fetch("https://dog.ceo/api/breeds/image/random")
 // fetch is a web API. It returns a promise. 
 // Why? because JS can't wait. It needs a promise. 
 // It is a synchronous single threaded language that waits for no one
+
+
+async function getACuteDogPhoto(){
+    const res = await fetch("https://dog.ceo/api/breeds/image/random")
+    const data = await res.json()
+    console.log(data)
+}
+getACuteDogPhoto()
