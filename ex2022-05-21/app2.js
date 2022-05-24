@@ -22,6 +22,7 @@ function houseThree(){
     })
 }
 
+// before ES 17
 houseOne()
     .then(data => console.log(data))
     .then(houseTwo)
@@ -29,3 +30,14 @@ houseOne()
     .then(houseThree)
     .then(data => console.log(data))
     .catch(err => console.log(err))
+
+// after ES17: we get async await
+async function getPaid(){
+    const houseOneWait = await houseOne()
+    const houseTWoWait = await houseTwo()
+    const houseThreeWait = await houseThree()
+    console.log(houseOneWait)
+    console.log(houseTwoWait)
+    console.log(houseThreeWait)
+}
+getPaid()
