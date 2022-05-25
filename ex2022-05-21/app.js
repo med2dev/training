@@ -18,3 +18,5 @@ async function getACuteDogPhoto(){
     console.log(data)
 }
 getACuteDogPhoto()
+
+// TODO: add a try and catch block
