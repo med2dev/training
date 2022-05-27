@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
 })
 
 
-}else if (page == '/js/main.js'){
-    fs.readFile()
-    //
-}
+// }else if (page == '/js/main.js'){
+//     fs.readFile()
+//     //
+// }
